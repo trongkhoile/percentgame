@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style=" position: fixed;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;">
+    <h1 style="text-align: center">7. Bạn nghĩ sao về việc đối phương có bạn thân khác giới?</h1>
+    <div style="display:flex;justify-content: center; flex-direction: column;">
+        <button class="bt" style="font-size: 25px;">A. Không thoải mái.</button><br>
+        <button class="bt" style="font-size: 25px;">B. Bình thường</button><br>
+
+    </div>
+</body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyBxLoSGfRuC_jqOvXQT4e4K12c_ChBFOjA",
+        authDomain: "ghepdoi.firebaseapp.com",
+        databaseURL: "https://ghepdoi-default-rtdb.firebaseio.com",
+        projectId: "ghepdoi",
+        storageBucket: "ghepdoi.appspot.com",
+        messagingSenderId: "261125177281",
+        appId: "1:261125177281:web:89d12ce54f551aa7383940",
+        measurementId: "G-2KFDY40PKB"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+</script>
+<script type="module" src="cau7.js"></script>
+
+</html>
